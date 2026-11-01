@@ -11,5 +11,7 @@ npm install @chingchiehwang/arcade-core
 Call:
 
 ```js
-import { move, generateBlock, isDirectionMovable, isMovable, Direction } from '@chingchiehwang/arcade-core';
+import { move, generateBlock, isDirectionMovable, isMovable, movePoints, Direction } from '@chingchiehwang/arcade-core';
 ```
+
+`movePoints(board, direction)` returns the points a move earns.
