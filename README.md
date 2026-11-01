@@ -1,0 +1,15 @@
+# @chingchiehwang/arcade-core
+
+Game logic for 2048. Every function takes a board and returns a new one.
+
+Install:
+
+```sh
+npm install @chingchiehwang/arcade-core
+```
+
+Call:
+
+```js
+import { move, generateBlock, isDirectionMovable, isMovable, Direction } from '@chingchiehwang/arcade-core';
+```

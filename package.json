@@ -1,0 +1,19 @@
+{
+  "name": "@chingchiehwang/arcade-core",
+  "version": "1.0.0",
+  "description": "Pure-function game logic for 2048",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
